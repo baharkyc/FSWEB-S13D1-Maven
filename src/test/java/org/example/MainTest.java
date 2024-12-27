@@ -38,8 +38,8 @@ class MainTest {
 
     @Test
     public void testSingleArea(){
-        assertEquals(Main.area(5.0), 78.53981633974483);
-        assertEquals(Main.area(-1.0), -1);
+        assertEquals(Main.areaCircle(5.0), 78.53981633974483);
+        assertEquals(Main.areaCircle(-1.0), -1);
     }
 
 }
